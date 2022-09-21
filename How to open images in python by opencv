@@ -1,0 +1,12 @@
+#Import opencv in python file
+import cv2
+
+#use opencv to set display image location
+img = cv2.imread("images/z900.jpg")
+
+#now show the image
+cv2.imshow("Bikes",img)
+
+#use to delay in display time
+cv2.waitKey(0)
+cv2.destroyAllWindows
